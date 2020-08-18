@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "policeGrecque";
+  src: url("AUGUSTUS.ttf");
+}
+
+@font-face {
+  font-family: "policeTitre";
+  src: url("diogenes.ttf")
+}
+
+body {
+  background-image: url("img/kefalonia_marinas.jpg");
+  text-align: center;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+audio {
+  float: right;
+  text-align: right;
+  vertical-align: end;
+}
+
+h1 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  font-size: 4em;
+  font-family: "policeTitre";
+  vertical-align: middle;
+  z-index: 5;
+  color: white;
+}
+
+p {
+  text-align: center;
+  width: auto;
+  height: auto;
+  font-size: 1.3em;
+  font-family: "policeGrecque";
+  vertical-align: middle;
+  z-index: 5;
+  color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#game {
+  display: inline-block;
+  width: 790px;
+  height: 790px;
+  text-align: center;
+  background-color: #293133;
+  padding: 20px 0 20px 0;
+  margin-top: 50px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case {
+  width: 70px;
+  height: 70px;
+  border-radius: 2%;
+  background-color: white;
+  margin: 2px;
+  display: inline-block;
+  border: solid #293133 1px;
+}
+
+.caseObstacle {
+  width: 70px;
+  height: 70px;
+  border-radius: 2%;
+  background-color: #293133;
+  margin: 2px;
+  display: inline-block;
+  border: solid white 1px;
+}
+
+.nouvelleCaseArme {
+  width: 70px;
+  height: 70px;
+  border-radius: 2%;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 2px;
+  display: inline-block;
+  border: solid white 1px;
+}
+
+.personnage {
+  width: 70px;
+  height: 70px;
+  border-radius: 2%;
+  background-color: #189bc7;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 2px;
+  display: inline-block;
+  border: solid white 1px;
+}
+
+.personnageOnfocus {
+  border: solid goldenrod 4px;
+}
+
+#Ajax {
+  width: 20%;
+}
+
+button {
+  visibility: hidden;
+}
+
+#Cyber {
+  width: 20%;
+}
+
+.caseDeplacement {
+  background-color: #77b5fe;
+}
+
+#imageArmeAjax {
+  width: 10%;
+  background-size: contain;
+}
+
+#imageArmeCyber {
+  width: 10%;
+  background-size: contain;
+}
